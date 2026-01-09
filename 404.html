@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech Transit Portal - SWIFT</title>
+    <script>
+      // GitHub Pages 404 redirect for React Router with base path
+      var pathSegmentsToKeep = 1; // Keep /Techtransit/
+      var l = window.location;
+      var basePath = '/Techtransit/';
+      
+      // Extract the path after the base
+      var pathAfterBase = l.pathname.replace(basePath, '');
+      
+      // Redirect to index.html with the path as query parameter
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        basePath + '?/' + pathAfterBase.replace(/&/g, '~and~') +
+        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+        l.hash
+      );
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
