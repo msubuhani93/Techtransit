@@ -1,0 +1,91 @@
+.header {
+  background: #FFFFFF;
+  color: #1D1D1F;
+  padding: 16px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  border-bottom: 1px solid #E5E5EA;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  color: #1D1D1F;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back-button:hover {
+  background-color: #F5F5F7;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.logo {
+  font-weight: 400;
+  font-size: 20px;
+  color: #1D1D1F;
+  letter-spacing: -0.3px;
+}
+
+.portal-title {
+  font-size: 17px;
+  font-weight: 400;
+  color: #1D1D1F;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  letter-spacing: -0.2px;
+}
+
+.dropdown-arrow {
+  font-size: 12px;
+  color: #86868B;
+}
+
+.header-right {
+  display: flex;
+  gap: 12px;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  color: #1D1D1F;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  transition: background-color 0.2s;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-button:hover {
+  background-color: #F5F5F7;
+}
